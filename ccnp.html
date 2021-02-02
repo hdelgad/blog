@@ -108,9 +108,21 @@
 
           <p>Mediante el estándar 802.1D solo permitía una instancia STP para toda una red de switch. Lo que limitaba la carga del tráfico compartido entre enlaces bloqueando VLAN específicas en una línea y bloqueando otras VLAN en enlaces alternativos. MST (Protocolo de árbol de expansión múltiple) asigna una o varias VLAN a una instancia de STP.</p>
 
-          <p>MST mapea una o varias VLAN en un árbol STP, llamado instancia de MST (MSTI). Un grupo de conmutadores MST con la misma configuración de alto nivel se conoce como región MST, donde se incorpora mecanismos para que aparezca un único conmutador virtual para conmutadores externos.</p>
+          <blockquote class="blockquote">MST mapea una o varias VLAN en un árbol STP, llamado instancia de MST (MSTI). Un grupo de conmutadores MST con la misma configuración de alto nivel se conoce como región MST, donde se incorpora mecanismos para que aparezca un único conmutador virtual para conmutadores externos.</blockquote>
           
           <p>MST:
+              <a href="#">Ir al contenido</a>.</p>
+          
+                    <h2 class="section-heading">Virtual Routing and Forwarding</h2>
+
+          <p>VRF (Enrutamiento y reenvío virtual) es una tecnología que crea enrutadores virtuales separados en un enrutador físico. Las interfaces de enrutador, las tablas de enrutamiento y las tablas de reenvío están completamente aisladas entre los VRF, lo que evita que el tráfico de un VRF se reenvíe a otro VRF.</p>
+
+          <blockquote class="blockquote">
+            Todas las interfaces del enrutador pertenecen al VRF global hasta que se asignan específicamente a un VRF definido por el usuario. El VRF global es idéntico a la tabla de enrutamiento normal de los enrutadores que no son VRF.
+            El VRF de cada enrutador mantiene una tabla de enrutamiento separada; es posible permitir la superposición de rangos de direcciones IP. VRF crea segmentación entre interfaces de red, subinterfaces de red, direcciones IP y tablas de enrutamiento.
+            La configuración de VRF en un enrutador garantiza que las rutas estén aisladas, la seguridad de la red aumente y no sea necesario cifrar el tráfico en la red para mantener la privacidad entre las instancias de VRF.</blockquote>
+          
+          <p>VRF:
               <a href="#">Ir al contenido</a>.</p>
         </div>
       </div>
