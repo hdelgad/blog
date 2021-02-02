@@ -93,30 +93,25 @@
           
           <h2 class="section-heading">Arquitecturas de Reenvio</h2>
 
-          <p>La conmutación o reenvio de paquetes IP es un proceso para recibir un paquete IP en una interfaz de entrada y determinar si reenviar el paquete a una interfaz de salida o descartarlo.</p>
+          <p>La conmutación o reenvio de paquetes IP es un proceso para recibir un paquete IP en una interfaz de entrada y determinar si reenviar el paquete a una interfaz de salida o descartarlo. Cisco desarrollo la conmutación rápida y Cisco Express Forwarding (CEF) para optimizar el proceso de conmutación y asi los enrutadores puedan manejar grandes volúmenes de paquetes.</p>
 
-          <p>Cisco creó la conmutación rápida y Cisco Express Forwarding (CEF) para optimizar el proceso de conmutación para que los enrutadores puedan manejar grandes volúmenes de paquetes.</p>
+          <blockquote class="blockquote">La conmutación de procesos (conmutación de software o ruta lenta), es un mecanismo de conmutación en el que el CPU está a cargo de la conmutación de paquetes. Dicha conmutación resulta más lenta que la conmutación realizada en hardware. El proceso NetIO está diseñado para manejar un porcentaje muy pequeño del tráfico manejado por el sistema. Los paquetes se conmutan por hardware siempre que sea posible.</blockquote>
 
-          <blockquote class="blockquote">The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>
+          <blockquote class="blockquote">CEF (Cisco Express Forwarding) es un mecanismo de conmutación desarrollado por Cisco, empleado por defecto en todas sus plataformas que utilizan circuitos integrados específicos de aplicaciones (ASIC) y unidades de procesamiento de red (NPU) especializados para un alto rendimiento de paquetes (enrutadores basados en hardware).</blockquote>
 
-          <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>
+          <blockquote class="blockquote">TCAM (Memoria direccionable de contenido ternario) permite en un conmutador la comparación y evaluación de un paquete en más de un campo, donde sus entradas se almacenan en formato de valor, máscara y resultado (VMR) opera en hardware, proporcionando un procesamiento y una escalabilidad más rápidos que la conmutación de procesos.</blockquote>
+          
+          <p>Forwarding Architectures:
+              <a href="#">Ir al contenido</a>.</p>
+          
+          <h2 class="section-heading">Multiple Spanning Tree Protocol</h2>
 
-          <h2 class="section-heading">Reaching for the Stars</h2>
+          <p>Mediante el estándar 802.1D solo permitía una instancia STP para toda una red de switch. Lo que limitaba la carga del tráfico compartido entre enlaces bloqueando VLAN específicas en una línea y bloqueando otras VLAN en enlaces alternativos. MST (Protocolo de árbol de expansión múltiple) asigna una o varias VLAN a una instancia de STP.</p>
 
-          <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
-
-          <a href="#">
-            <img class="img-fluid" src="img/post-sample-image.jpg" alt="">
-          </a>
-          <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
-
-          <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
-
-          <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
-
-          <p>Placeholder text by
-            <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by
-            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+          <p>MST mapea una o varias VLAN en un árbol STP, llamado instancia de MST (MSTI). Un grupo de conmutadores MST con la misma configuración de alto nivel se conoce como región MST, donde se incorpora mecanismos para que aparezca un único conmutador virtual para conmutadores externos.</p>
+          
+          <p>MST:
+              <a href="#">Ir al contenido</a>.</p>
         </div>
       </div>
     </div>
