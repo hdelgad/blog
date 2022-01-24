@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Clean Blog - Start Bootstrap Theme</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Networking</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/ccna.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Redes definidas por software</h1>
+            <h2 class="subheading">Automatizacion de la red</h2>
+            <span class="meta">Posted by
+              <a href="#">Hector Delgado</a>
+              on January 24, 2022</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Actualmente muchos dispositivos incorporan tecnologías inteligentes que ayudan a determinar su comportamiento. Esto puede ser tan simple como cuando un dispositivo inteligente reduce su consumo de energía durante períodos de alta demanda o tan complejo como conducir un auto de manera autónoma.</p> 
+      
+          <p>Cada vez que un dispositivo toma una decisión, en función de información externa, dicho dispositivo se conoce como un dispositivo inteligente. (indica que tiene la capacidad para alterar su comportamiento según su entorno).</p>
+          
+          <p>Para que un dispositivo pueda "pensar" el mismo debe ser programado utilizando herramientas de automatización de red.</p>
+
+          <a href="#">
+            <img class="img-fluid" src="img/post-sample-image2.jpg" alt="">
+          </a>
+          <span class="caption text-muted">Contenido curricular del CCNAv7.0.</span>
+
+          <p>Actualmente la oferta es variada para la preparación en la certificación, teniendo desde academias hasta metodos de auto estudio. No existe un requisito previo para ello, lo unico es estar preparado en la conceptualización de temas y el desarrollo de las habilidades practicas que exije el programa.</p>
+
+        
+          <h2 class="section-heading">Formato de datos</h2>
+          <p>Dentro de todo proceso de comunicación existen esquemas para interpretar el dato recibido, un formato es un esquema ordenado para entender la información y procesarla; es asi que existen formatos comunes usados en muchas aplicaciones incluidas automatización de la red y programación.
+             Donde destacan YAML (no es un lenguaje de marcado), JSON Notación de objeto de JavaScript y XML (Lenguaje de marcado extensible).</p>
+
+          <p>Formatos:
+          <a href="https://www.ibm.com/docs/es/baw/20.x?topic=formats-javascript-object-notation-json-format">Enlace de información</a>.</p> 
+
+          <h2 class="section-heading">APIs</h2>
+          <p>Se entiende como un programa que permite a otras aplicaciones accesar a su información o servicios, donde un conjunto de reglas describen como una aplicación interactua con otra para que esa interacción ocurra. Las APIs pueden distinguirse entre abiertas, internas y de partner</p>
+          
+          <blockquote class="blockquote">Se tienen hasta 4 tipos de API's para el servicio WEB, como son SOAP, REST, XML-RPC y JSON-RPC; Teniendo a REST como la mas empleada y compatible con diversos formatos . </blockquote>
+          <blockquote class="blockquote">API REST funciona encima del protocolo HTTP, definiendo un conjunto de funciones que los desarrolladores realizan (solicitudes y respuestas) con HTTP como GET y POST.</blockquote>
+          <blockquote class="blockquote">Una solicitud de API puede realizarse desde sitios web de desarrolladores, Postman, Python o Sistemas operativos de red .</blockquote>
+          
+          <p>APIs:
+            <a href="https://www.redhat.com/es/topics/api/what-are-application-programming-interfaces#:~:text=Una%20API%20o%20interfaz%20de,el%20software%20de%20las%20aplicaciones.</a>.</p>
+          
+          <h2 class="section-heading">Herramientas de administración de configuración</h2>
+
+          <p>El modelo OSI sigue siendo la base para el analisis del proceso de encapsulamiento. Es asi que se facilita en entendimiento de todo el proceso interno para la preparación y envio de información mediante la red, diferenciandose la importancia de cada protocolo de acuerdo a la capa asi como los dispositivos de red.</p>
+
+          <a href="#">
+            <img class="img-fluid" src="img/osi.jpg" alt="">
+          </a>
+          <span class="caption text-muted">Resumen de la función y protocolos del modelo OSI</span>
+
+          <p>Es importante relacionar la función de cada capa para comprender el trabajo de cada dispositivo de red, lo cual facilita un mejor diseño, optimización y la solución de fallos en la red .</p>
+
+          <p>Herramientas de administración:
+          <a href="http://cidecame.uaeh.edu.mx/lcc/mapa/PROYECTO/libro35/unidad_ii_capas_del_modelo_osi.html">Enlace de información</a>.</p> 
+            
+          <h2 class="section-heading">Ethernet</h2>
+
+          <p>Es una de las tecnologias LAN que mas evoluciono en las ultimas decadas, principalmente por el uso del switch, los medios de fibra optica y el soporte de ancho de banda. Permitiendose su aplicación en entornos MAN y WAN .</p>
+          <p>Se estandarizo mediante la IEEE 802.3, presentado beneficios de escalabilidad, bajo costo, simplicidad, bajo retardo, direccionamiento flexible, entre otros. La tecnologia define la funcionalidad a nivel capa fisica y enlace de datos.
+          <blockquote class="blockquote">Ethernet presenta varias versiones que principalmente varian en el tipo de medio y su alcance (802.3i, 802.3u, 802.3z, 802.3ab, 802.3ae, 802.3ak, 802.3an, 802.3ap & 802.3aq.</blockquote>
+         
+          <p>Ethernet:
+          <a href="https://ethernetalliance.org/">Enlace de información</a>.</p> 
+
+           <h2 class="section-heading">ICMP</h2>
+
+          <p>Internet Control Message Protocol establecido en la RFC 792, emite mensajes con detalles del error en la comunicación al dispositivo origen del paquete, mediante los primeros 8 bytes y 13 tipos de mensajes.</p>
+          <blockquote class="blockquote">Las opciones de prueba como Ping y Tracert son principalmente empleadas sobre todo cuando se manejan las opciones extendidas para la verificación.</blockquote>
+       
+          <p>ICMP:
+          <a href="https://www.iana.org/assignments/icmp-parameters/icmp-parameters.xhtml">Enlace de información</a>.</p>     
+                      
+         <h2 class="section-heading">Diseño de red</h2>
+
+          <p>Un diseño de red implica una preparación y posterior planificación respecto a la infraestructura de red en cuanto a los objetivos y necesidades empresariales; dentro de la planificación se recomienda un diseño jerarquico por los beneficios de la arquitectura de capas incluso teniendo un modelo de nucleo contraido .</p>
+
+          <p>Diseño de red:
+          <a href="https://www.cisco.com/c/dam/r/es/la/internet-of-everything-ioe/assets/pdfs/en-05_campus-wireless_wp_cte_es-xl_42333.pdf">Enlace de información</a>.</p> 
+          
+          
+          <h2 class="section-heading">Tabla de enrutamiento</h2>
+
+          <p>La tabla de enrutamiento como mapa de rutas hacia redes conocidas es la guia que todo dispositivo de enrutamiento maneja, su informacion deriva de rutas conectadas directamente o de rutas remotas (Enrutamiento estatico o dinamico). 
+            Dentro se encuentran diferentes parametros que establecen el alcance hacia la red como el origen de ruta,  metrica, distancia administrativa, ruta final, entre otros .</p>
+          <p>La estructura de toda tabla se basa en el direccionamiento con clase e integra rutas de nivel 1, rutas principales y rutas secundarias facilitandose el proceso de busqueda.</p>
+          <blockquote class="blockquote">Las rutas de nivel 1 considera Redes, superredes y ruta por defecto.</blockquote>
+          <blockquote class="blockquote">Las rutas principales son las redes con clase que presentan subredes pero sin rutas finales.</blockquote>
+          <blockquote class="blockquote">Las rutas secundarias (entrada identada)considera a las subredes, de cualquier clase.</blockquote>
+         
+          <p>RoutingTable:
+          <a href="https://www.itesa.edu.mx/netacad/introduccion/course/module6/6.2.2.1/6.2.2.1.html">Enlace de información</a>.</p>
+          
+          
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/hector.delgado.161009/">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Your Website 2021</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
