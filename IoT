@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Clean Blog - Start Bootstrap Theme</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Networking</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/sdn.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>IoT</h1>
+            <h2 class="subheading">Internet de Todo</h2>
+            <span class="meta">Posted by
+              <a href="#">Hector Delgado</a>
+              on January 8, 2022</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Actualmente muchos dispositivos incorporan tecnologías inteligentes que ayudan a determinar su comportamiento. Esto puede ser tan simple como cuando un dispositivo inteligente reduce su consumo de energía durante períodos de alta demanda o tan complejo como conducir un auto de manera autónoma.</p> 
+      
+          <p>Cada vez que un dispositivo toma una decisión, en función de información externa, dicho dispositivo se conoce como un dispositivo inteligente. (indica que tiene la capacidad para alterar su comportamiento según su entorno).</p>
+          
+          <p>Para que un dispositivo pueda "pensar" el mismo debe ser programado utilizando herramientas de automatización de red.</p>
+
+          <p>IoT:
+          <a href="#">video</a>.</p> 
+          
+          <h2 class="section-heading">Sistemas IoT</h2>
+          <p> Se considera una arquitectura de red donde el control se desacoplado de la función de reenvio y permitiendo ser programable; facilita la abstracción a las aplicaciones y servicios de la infraestructura base, permitiendo la gestion de la red como una identidad lógica o virtual. </p>
+          <a href="#">
+            <img class="img-fluid" src="img/auto-sd.jpg" alt="">
+          </a>
+          <span class="caption text-muted">Arquitectura SDN por ONF</span>
+
+          <p>La inteligencia de la red es centralizada en controladores SDN basados en software.</p>
+
+        
+          <h2 class="section-heading">Hardware IoT</h2>
+          <p>Dentro de todo proceso de comunicación existen esquemas para interpretar el dato recibido, un formato es un esquema ordenado para entender la información y procesarla; es asi que existen formatos comunes usados en muchas aplicaciones incluidas automatización de la red y programación.
+             Donde destacan YAML (no es un lenguaje de marcado), JSON Notación de objeto de JavaScript y XML (Lenguaje de marcado extensible).</p>
+          <p> <a href="#">Hardware IoT</a>.</p> 
+
+          <h2 class="section-heading">Software IoT</h2>
+          <p>Se entiende como un programa que permite a otras aplicaciones accesar a su información o servicios, donde un conjunto de reglas describen como una aplicación interactua con otra para que esa interacción ocurra. Las APIs pueden distinguirse entre abiertas, internas y de partner</p>
+          
+          <blockquote class="blockquote">Se tienen hasta 4 tipos de API's para el servicio WEB, como son SOAP, REST, XML-RPC y JSON-RPC; Teniendo a REST como la mas empleada y compatible con diversos formatos. </blockquote>
+          <blockquote class="blockquote">API REST funciona encima del protocolo HTTP, definiendo un conjunto de funciones que los desarrolladores realizan (solicitudes y respuestas) con HTTP como GET y POST.</blockquote>
+          <blockquote class="blockquote">Una solicitud de API puede realizarse desde sitios web de desarrolladores, Postman, Python o Sistemas operativos de red.</blockquote>
+          <p> 
+            <a href="#">Software IoT</a>.</p>
+          
+          <h2 class="section-heading">Herramientas de gestión</h2>
+
+          <p>Las herramientas utilizan las solicitudes de API RESTful para automatizar tareas y pueden escalar en miles de dispositivos. Entre los beneficios estan el Control de versión de software, Atributos del dispositivo 
+            (nombres, direccionamiento y seguridad), Configuración de protocolos o Configuraciones de ACL.</p>
+          
+          <blockquote class="blockquote">Entre las herramientas mas conocidas estan Ansible, Chef, Puppet y SaltStack; ya que admiten varios formatos de datos.</blockquote>
+                 
+          <a href="#">
+            <img class="img-fluid" src="img/tools.jpg" alt="">
+          </a>
+          <span class="caption text-muted">Principales herramientas de administración</span>
+          <p> 
+          <a href="#">Herramientas</a>.</p> 
+          
+          <h2 class="section-heading">Diseño y simulación</h2>
+
+          <p>Es un formato que envuelve una serie de tecnologías diferentes para crear contenedores, como Espacios de nombres (Namespaces), Grupos de control (Control Groups), Sistemas de Unión de Archivos (Union File Systems)    </p>
+          
+          <blockquote class="blockquote">Actualmente los mas comun para contenerizar una aplicación es implementarla como un contenedor Docker. Docker es una forma de crear y ejecutar ese contenedor.
+            Un contenedor es una forma de encapsular todo lo que necesita para ejecutar su aplicación, de modo que pueda implementarse fácilmente en una variedad de entornos. </blockquote> 
+          <a href="https://www.docker.com/">Docker</a>. <a href="https://www.youtube.com/watch?v=i6Wm8p87Z84">Video</a>. 
+
+          <h2 class="section-heading">Diseño y simulación</h2>
+
+          <p>La programabilidad basada en modelos proporciona un lenguaje de configuración estructurado que podemos entender e incluye soporte para varios modelos (native, OpenConfig e IETF) con una especificación que está desacoplada del transporte, tiene end encoding de protocolo.
+             Emplea APIs basadas en modelos para abstracción y simplificación; aprovechando el código abierto y amplio soporte.</p>
+          <img class="img-fluid" src="img/prog_model.jpg" alt="">
+          </un>
+          <span class="caption text-muted">Pila de programabilidad YANG</span>
+          
+
+        </div>
+      </div>
+    </div>
+  </article>
+  <hr>
+
+     <!-- Post Content2 -->
+  <article2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">  
+            <h3 class="post-subtítulo">Enlaces de interes</h3>   
+          <p>Simulación y desarrollo:
+            <a href="https://www.tinkercad.com/">Tinkercad</a>.           
+            <a href="https://trinket.io/">Trinket</a>.        
+            <a href="https://wyliodrinstudio.readthedocs.io/en/latest/simulators/index.html">Wyliodrinstudio</a>.
+            <a href="https://azure-samples.github.io/raspberry-pi-web-simulator/">Azure</a>.    
+            <a href="https://aws.amazon.com/es/solutions/implementations/iot-device-simulator/">Amazon</a>.
+          <p>Aplicaciones:
+            <a href="https://www.mathworks.com/solutions/internet-of-things.html">MATLAB</a>.           
+            <a href="https://iotify.io/">iotify</a>.        
+            <a href="https://www.bevywise.com/iot-simulator/">bevywise</a>.          
+          
+         </div>
+      </div>
+    </div>
+  </article2>
+
+  <hr>
+
+ <!-- Footer -->
+  <footer>
+    <div class="clearfix">
+          <a class="btn btn-primary float-right" href="https://docs.google.com/forms/d/e/1FAIpQLSdRrCMXz1sVD0Fl2qy5nVgAHNWe_T-_jq-ebGxdP57EN7CiVg/viewform?vc=0&c=0&w=1&flr=0">Consultas &rarr;</a>
+        </div>
+      </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">          
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/hector.delgado.161009/">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/channel/UCBtMxRE6mUYA7dJ_oL3Yl1w">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/hdelgad">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/?hl=es">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Your Website 2022</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
